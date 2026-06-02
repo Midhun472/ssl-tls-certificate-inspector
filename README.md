@@ -21,8 +21,22 @@ SSL/TLS certificates, and checks for security misconfigurations.
 ## Project Structure
 
 ssl-tls-inspector/
-├── ssl_inspector.py   # Main entry point — connection & parsing
-├── checker.py         # Security validation checks
-├── reporter.py        # Output formatting & file export
-├── domains.txt        # Sample domain list
-└── reports/           # Generated reports saved here
+│
+├── ssl_inspector.py
+│   └── Main application responsible for SSL/TLS connections,
+│       certificate retrieval, and certificate parsing.
+│
+├── checker.py
+│   └── Performs security validation checks including certificate
+│       expiry, TLS version analysis, cipher strength validation,
+│       and SAN verification.
+│
+├── reporter.py
+│   └── Generates terminal output and exports scan results
+│       in JSON and CSV formats.
+│
+├── domains.txt
+│   └── Sample list of domains used for bulk scanning.
+│
+└── reports/
+    └── Stores generated JSON and CSV security reports.
