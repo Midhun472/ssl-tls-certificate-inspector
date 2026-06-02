@@ -1,0 +1,11 @@
+# SSL/TLS Certificate Inspector
+# No external packages required
+# Uses Python standard library only:
+#   - ssl
+#   - socket
+#   - datetime
+#   - json
+#   - csv
+#   - os
+#   - argparse
+#   - concurrent.futures

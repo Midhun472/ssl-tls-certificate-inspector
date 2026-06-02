@@ -1,0 +1,12 @@
+# SSL/TLS Inspector — test domains
+# Lines starting with # are ignored
+
+# Well-configured domains
+google.com
+github.com
+cloudflare.com
+
+# Intentionally broken (badssl.com test sites)
+expired.badssl.com
+tls-v1-0.badssl.com
+rc4.badssl.com
