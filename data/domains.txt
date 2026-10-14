@@ -6,7 +6,7 @@ google.com
 github.com
 cloudflare.com
 
-# Intentionally broken (badssl.com test sites)
+# Intentionally broken  (badssl.com test sites)
 expired.badssl.com
 tls-v1-0.badssl.com
 rc4.badssl.com
